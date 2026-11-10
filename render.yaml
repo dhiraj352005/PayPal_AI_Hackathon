@@ -1,0 +1,61 @@
+services:
+  # Backend API Service
+  - type: web
+    name: payflow-backend
+    env: node
+    plan: standard
+    buildCommand: npm --prefix backend install
+    startCommand: npm --prefix backend start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: FRONTEND_URL
+        value: https://payflow-frontend.onrender.com
+      - key: PAYPAL_BASE_URL
+        value: https://api-m.sandbox.paypal.com
+      - key: PAYPAL_CLIENT_ID
+        sync: false
+      - key: PAYPAL_CLIENT_SECRET
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: CATALOG_CURRENCY
+        value: USD
+      - key: LOG_LEVEL
+        value: info
+
+  # Frontend Web Service
+  - type: web
+    name: payflow-frontend
+    env: static
+    buildCommand: npm --prefix frontend install && npm --prefix frontend run build
+    staticPublishPath: ./frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://payflow-backend.onrender.com
+      - key: VITE_PAYPAL_CLIENT_ID
+        sync: false
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

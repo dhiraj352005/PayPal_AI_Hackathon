@@ -1,0 +1,372 @@
+[
+  {
+    "id": "ORD-6GH90614TS438604L",
+    "type": "ORDER",
+    "providerId": "6GH90614TS438604L",
+    "status": "CREATED",
+    "mode": "real",
+    "amount": 7733.95,
+    "currency": "USD",
+    "description": "Procurement Order (4 items)",
+    "customer": {
+      "name": "PayPal Buyer",
+      "email": "sandbox-buyer@paypal.com"
+    },
+    "items": [
+      {
+        "sku": "HW-MON-PRO32",
+        "name": "LG 32\" UltraFine Ergo 4K Display (32UN880-B)",
+        "category": "Monitors",
+        "unitPrice": 549,
+        "quantity": 5,
+        "subtotal": 2745,
+        "currency": "USD"
+      },
+      {
+        "sku": "HW-KEY-MXMEC",
+        "name": "Logitech MX Mechanical Wireless Keyboard",
+        "category": "Keyboards and mice",
+        "unitPrice": 149.99,
+        "quantity": 5,
+        "subtotal": 749.95,
+        "currency": "USD"
+      },
+      {
+        "sku": "HW-AUD-WH1000",
+        "name": "Sony WH-1000XM5 Wireless Noise-Canceling Headset",
+        "category": "Headsets and webcams",
+        "unitPrice": 348,
+        "quantity": 5,
+        "subtotal": 1740,
+        "currency": "USD"
+      },
+      {
+        "sku": "HW-PC-MBP16",
+        "name": "Apple MacBook Pro 16\" (M3 Pro, 36GB RAM, 1TB SSD)",
+        "category": "Computers and accessories",
+        "unitPrice": 2499,
+        "quantity": 1,
+        "subtotal": 2499,
+        "currency": "USD"
+      }
+    ],
+    "approvalUrl": "https://www.sandbox.paypal.com/checkoutnow?token=6GH90614TS438604L",
+    "createdAt": "2026-10-21T06:31:05.866Z",
+    "updatedAt": "2026-10-21T06:31:05.866Z"
+  },
+  {
+    "id": "ORD-6UC70308S69316407",
+    "type": "ORDER",
+    "providerId": "6UC70308S69316407",
+    "status": "CREATED",
+    "mode": "real",
+    "amount": 5234.95,
+    "currency": "USD",
+    "description": "Procurement Order (3 items)",
+    "customer": {
+      "name": "PayPal Buyer",
+      "email": "sandbox-buyer@paypal.com"
+    },
+    "items": [
+      {
+        "sku": "HW-MON-PRO32",
+        "name": "LG 32\" UltraFine Ergo 4K Display (32UN880-B)",
+        "category": "Monitors",
+        "unitPrice": 549,
+        "quantity": 5,
+        "subtotal": 2745,
+        "currency": "USD"
+      },
+      {
+        "sku": "HW-KEY-MXMEC",
+        "name": "Logitech MX Mechanical Wireless Keyboard",
+        "category": "Keyboards and mice",
+        "unitPrice": 149.99,
+        "quantity": 5,
+        "subtotal": 749.95,
+        "currency": "USD"
+      },
+      {
+        "sku": "HW-AUD-WH1000",
+        "name": "Sony WH-1000XM5 Wireless Noise-Canceling Headset",
+        "category": "Headsets and webcams",
+        "unitPrice": 348,
+        "quantity": 5,
+        "subtotal": 1740,
+        "currency": "USD"
+      }
+    ],
+    "approvalUrl": "https://www.sandbox.paypal.com/checkoutnow?token=6UC70308S69316407",
+    "createdAt": "2026-10-20T18:35:50.490Z",
+    "updatedAt": "2026-10-20T18:35:50.490Z"
+  },
+  {
+    "id": "ORD-5MT91756WK297604U",
+    "type": "ORDER",
+    "providerId": "5MT91756WK297604U",
+    "status": "CREATED",
+    "mode": "real",
+    "amount": 3240,
+    "currency": "USD",
+    "description": "Procurement Order (2 items)",
+    "customer": {
+      "name": "PayPal Buyer",
+      "email": "sandbox-buyer@paypal.com"
+    },
+    "items": [
+      {
+        "sku": "HW-MON-PRO32",
+        "name": "LG 32\" UltraFine Ergo 4K Display (32UN880-B)",
+        "category": "Monitors",
+        "unitPrice": 549,
+        "quantity": 5,
+        "subtotal": 2745,
+        "currency": "USD"
+      },
+      {
+        "sku": "HW-KEY-KEYCH",
+        "name": "Keychron K8 Pro Wireless QMK/VIA Mechanical Keyboard",
+        "category": "Keyboards and mice",
+        "unitPrice": 99,
+        "quantity": 5,
+        "subtotal": 495,
+        "currency": "USD"
+      }
+    ],
+    "approvalUrl": "https://www.sandbox.paypal.com/checkoutnow?token=5MT91756WK297604U",
+    "createdAt": "2026-10-20T18:09:31.342Z",
+    "updatedAt": "2026-10-20T18:09:31.342Z"
+  },
+  {
+    "id": "DEMO-ORD-MVGYY0WL-ADXI",
+    "type": "ORDER",
+    "providerId": "DEMO-ORD-MVGYY0WL-ADXI",
+    "status": "CREATED",
+    "mode": "simulation",
+    "amount": 4485,
+    "currency": "USD",
+    "description": "Simulated Procurement Order for 2 item(s)",
+    "customer": {
+      "name": "Demo Buyer",
+      "email": "demo.buyer@sandbox.local"
+    },
+    "items": [
+      {
+        "sku": "HW-MON-PRO32",
+        "name": "LG 32\" UltraFine Ergo 4K Display (32UN880-B)",
+        "category": "Monitors",
+        "unitPrice": 549,
+        "quantity": 5,
+        "subtotal": 2745,
+        "currency": "USD"
+      },
+      {
+        "sku": "HW-AUD-WH1000",
+        "name": "Sony WH-1000XM5 Wireless Noise-Canceling Headset",
+        "category": "Headsets and webcams",
+        "unitPrice": 348,
+        "quantity": 5,
+        "subtotal": 1740,
+        "currency": "USD"
+      }
+    ],
+    "approvalUrl": "https://www.sandbox.paypal.com/checkoutnow?token=DEMO-ORD-MVGYY0WL-ADXI",
+    "createdAt": "2026-10-20T17:40:15.769Z",
+    "updatedAt": "2026-10-20T17:40:15.769Z"
+  },
+  {
+    "id": "DEMO-REF-MVGY7WSX",
+    "type": "REFUND",
+    "providerId": "DEMO-REF-MVGY7WSX",
+    "captureId": "DEMO-CAP-MVGY38FQ",
+    "status": "COMPLETED",
+    "mode": "simulation",
+    "amount": 299.98,
+    "currency": "USD",
+    "description": "Simulated Refund for Capture DEMO-CAP-MVGY38FQ",
+    "reason": "Defective keyboard unit",
+    "customer": {
+      "name": "Demo Buyer",
+      "email": "demo.buyer@sandbox.local"
+    },
+    "createdAt": "2026-10-20T17:19:57.404Z",
+    "updatedAt": "2026-10-20T17:19:57.404Z"
+  },
+  {
+    "id": "DEMO-CAP-MVGY38FQ",
+    "type": "CAPTURE",
+    "providerId": "DEMO-CAP-MVGY38FQ",
+    "orderId": "DEMO-ORD-MVGY19L4-V726",
+    "status": "REFUNDED",
+    "mode": "simulation",
+    "amount": 1297.98,
+    "currency": "USD",
+    "description": "Simulated Capture for DEMO-ORD-MVGY19L4-V726",
+    "customer": {
+      "name": "Demo Buyer",
+      "email": "demo.buyer@sandbox.local"
+    },
+    "createdAt": "2026-10-20T17:16:19.202Z",
+    "updatedAt": "2026-10-20T17:19:57.394Z"
+  },
+  {
+    "id": "DEMO-ORD-MVGY19L4-V726",
+    "type": "ORDER",
+    "providerId": "DEMO-ORD-MVGY19L4-V726",
+    "status": "COMPLETED",
+    "mode": "simulation",
+    "amount": 1297.98,
+    "currency": "USD",
+    "description": "Simulated Procurement Order for 2 item(s)",
+    "customer": {
+      "name": "Demo Buyer",
+      "email": "demo.buyer@sandbox.local"
+    },
+    "items": [
+      {
+        "sku": "HW-MON-4K27",
+        "name": "Dell UltraSharp 27\" 4K USB-C Hub Monitor (U2723QE)",
+        "category": "Monitors",
+        "unitPrice": 499,
+        "quantity": 2,
+        "subtotal": 998,
+        "currency": "USD"
+      },
+      {
+        "sku": "HW-KEY-MXMEC",
+        "name": "Logitech MX Mechanical Wireless Keyboard",
+        "category": "Keyboards and mice",
+        "unitPrice": 149.99,
+        "quantity": 2,
+        "subtotal": 299.98,
+        "currency": "USD"
+      }
+    ],
+    "approvalUrl": "https://www.sandbox.paypal.com/checkoutnow?token=DEMO-ORD-MVGY19L4-V726",
+    "createdAt": "2026-10-20T17:14:47.371Z",
+    "updatedAt": "2026-10-20T17:16:19.192Z"
+  },
+  {
+    "id": "TEST-TX-1792564010383",
+    "type": "ORDER",
+    "providerId": "DEMO-ORD-TEST",
+    "status": "COMPLETED",
+    "mode": "simulation",
+    "amount": 199.99,
+    "currency": "USD",
+    "description": "Unit test order",
+    "createdAt": "2026-10-21T06:26:50.387Z",
+    "updatedAt": "2026-10-21T06:26:50.387Z"
+  },
+  {
+    "id": "DEMO-TX-1001",
+    "type": "ORDER",
+    "providerId": "DEMO-PAYPAL-ORD-8821",
+    "status": "APPROVED",
+    "mode": "simulation",
+    "isSample": true,
+    "amount": 3140,
+    "currency": "USD",
+    "description": "Procurement Order: Remote Engineering Bundle (5x 4K Monitors, Keyboards, Headsets)",
+    "customer": {
+      "name": "Sarah Jenkins",
+      "email": "sarah.jenkins@acmeworkspace.io"
+    },
+    "items": [
+      {
+        "sku": "HW-MON-4K27",
+        "name": "Dell UltraSharp 27\" 4K USB-C Hub Monitor",
+        "quantity": 5,
+        "unitPrice": 499
+      },
+      {
+        "sku": "HW-KEY-MXMEC",
+        "name": "Logitech MX Mechanical Wireless Keyboard",
+        "quantity": 5,
+        "unitPrice": 149.99
+      },
+      {
+        "sku": "HW-AUD-JABRA",
+        "name": "Jabra Evolve2 65 Flex UC Wireless Stereo Headset",
+        "quantity": 5,
+        "unitPrice": 229
+      }
+    ],
+    "aiSummary": "Budget-optimized 5-person workstation bundle within $3,500 budget (89.7% budget utilization).",
+    "createdAt": "2026-10-18T10:15:00.000Z",
+    "updatedAt": "2026-10-18T10:16:30.000Z"
+  },
+  {
+    "id": "DEMO-TX-1002",
+    "type": "CAPTURE",
+    "providerId": "DEMO-PAYPAL-CAP-9912",
+    "orderId": "DEMO-TX-1001",
+    "status": "COMPLETED",
+    "mode": "simulation",
+    "isSample": true,
+    "amount": 3140,
+    "currency": "USD",
+    "description": "Capture for Order DEMO-TX-1001",
+    "customer": {
+      "name": "Sarah Jenkins",
+      "email": "sarah.jenkins@acmeworkspace.io"
+    },
+    "createdAt": "2026-10-18T10:16:45.000Z",
+    "updatedAt": "2026-10-18T10:16:45.000Z"
+  },
+  {
+    "id": "DEMO-TX-1003",
+    "type": "INVOICE",
+    "providerId": "DEMO-PAYPAL-INV-4411",
+    "status": "SENT",
+    "mode": "simulation",
+    "isSample": true,
+    "amount": 1170,
+    "currency": "USD",
+    "description": "Milestone Billing: Sprint 4 API & React Frontend Architecture",
+    "customer": {
+      "name": "Fintech Solutions Inc",
+      "email": "billing@fintechsolutions.io"
+    },
+    "items": [
+      {
+        "name": "React Frontend Implementation",
+        "quantity": 12,
+        "unitPrice": 60,
+        "total": 720
+      },
+      {
+        "name": "REST API Integration & Middleware",
+        "quantity": 4,
+        "unitPrice": 75,
+        "total": 300
+      },
+      {
+        "name": "Deployment & Cloud Orchestration Fee",
+        "quantity": 1,
+        "unitPrice": 150,
+        "total": 150
+      }
+    ],
+    "aiSummary": "Contract parsing extracted 3 line items with 8% tax calculation and net 15 payment terms.",
+    "invoiceUrl": "https://www.sandbox.paypal.com/invoice/p/#DEMO-INV-4411",
+    "createdAt": "2026-10-19T14:30:00.000Z",
+    "updatedAt": "2026-10-19T14:31:00.000Z"
+  },
+  {
+    "id": "DEMO-TX-1004",
+    "type": "REFUND",
+    "providerId": "DEMO-PAYPAL-REF-2290",
+    "captureId": "DEMO-TX-1002",
+    "status": "COMPLETED",
+    "mode": "simulation",
+    "isSample": true,
+    "amount": 229,
+    "currency": "USD",
+    "description": "Partial refund for defective headset unit following AI dispute triage recommendation.",
+    "aiSummary": "AI Triage classified complaint as 'Hardware Defect' and recommended immediate partial refund of single unit value ($229.00).",
+    "reason": "Damaged headset in shipment approved for partial refund",
+    "createdAt": "2026-10-19T16:45:00.000Z",
+    "updatedAt": "2026-10-19T16:45:00.000Z"
+  }
+]
